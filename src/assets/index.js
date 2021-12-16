@@ -34,6 +34,7 @@ import Star from '../assets/brands/star.svg';
 import MainTitle from '../assets/components/main-title.svg';
 import onOff from '../assets/brands/on-off.svg';
 import ricofru from '../assets/brands/logo-ricofru.svg';
+import backgroundRicofru from '../assets/components/background_ricofru.jpg';
 
 export {
   one,
@@ -71,5 +72,6 @@ export {
   sixPage,
   sevenPage,
   onOff,
-  ricofru
+  ricofru,
+  backgroundRicofru
 }
