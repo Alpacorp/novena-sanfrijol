@@ -1,6 +1,6 @@
 .header {
-  background-image: url('../assets/components/header_full.jpg');
-  height: 60px;
+  background-image: url('../assets/components/header_full_ricofru.jpg');
+  height: 80px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -21,13 +21,17 @@
   to {transform: none;}
 }
 
+.brandZone .brandLogo {
+  margin: 0 20px;
+}
+
 .brandLogo {
   text-align: center;
   margin: 30px 20px 0 20px;
 }
 
 .brandLogo img {
-  height: 65px;
+  height: 100px;
   width: 100%;
 }
 
@@ -100,5 +104,9 @@
   }
   .mainMenu .menuOption img {
     width: 100px;
+  }
+  .brandLogo img {
+    height: 65px;
+    width: 100%;
   }
 }

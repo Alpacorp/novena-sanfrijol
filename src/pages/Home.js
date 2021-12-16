@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 import './Pages.css';
-import { one, two, three, four, five, six, seven, MainTitle } from '../assets';
+import { one, two, three, four, five, six, seven, MainTitle, ricofru } from '../assets';
 import BrandLogo from '../Components/BrandLogo';
 import Header from '../Components/Header';
 
@@ -9,7 +9,10 @@ const Home = () => {
   return (
     <>
       <Header show={false} />
-      <BrandLogo src={MainTitle} />
+      <div className='brandZone'>
+        <BrandLogo src={ricofru} />
+        <BrandLogo src={MainTitle} />
+      </div>
       <p className='instructive'>Sigue cada paso  y reza en familia</p>
       <div className='mainMenu'>
         <Link to='/stepone' className='menuOption'>
