@@ -36,6 +36,7 @@ import onOff from '../assets/brands/on-off.svg';
 import ricofru from '../assets/brands/logo-ricofru.svg';
 import ricofruSocial from '../assets/brands/logo_ricofru_social_media.svg';
 import backgroundRicofru from '../assets/components/background_ricofru.jpg';
+import sanfrijol from '../assets/components/sanfrijol.png';
 
 export {
   one,
@@ -75,5 +76,6 @@ export {
   onOff,
   ricofru,
   ricofruSocial,
-  backgroundRicofru
+  backgroundRicofru,
+  sanfrijol
 }

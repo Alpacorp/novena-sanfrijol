@@ -7,8 +7,10 @@
 }
 
 :root {
-  background-image: url('./assets/components/background_ricofru.jpg');
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #FCF5EF;
+}
+
+body {
+  background: #FCF5EF;
+  scrollbar-shadow-color:gray;
 }

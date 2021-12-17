@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { mainFamily, novenaIntro, ricofru } from '../assets';
+import { mainFamily, novenaIntro, sanfrijol } from '../assets';
 import BrandLogo from './BrandLogo';
 import './Components.css';
 
@@ -8,7 +8,7 @@ const Intro = () => {
     <>
       <div className='introModal'>
         <div className='introContent'>
-          <BrandLogo src={ricofru} />
+          <BrandLogo src={sanfrijol} />
           <div className='familyImage'>
             <img src={mainFamily} alt="novena familiar" />
           </div>
